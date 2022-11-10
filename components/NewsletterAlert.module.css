@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  margin: 0 0 30px 0;
+  padding: 10px 20px;
+  background-color: #ffc1c1;
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.container > * {
+  margin: 0;
+  padding: 0;
+}

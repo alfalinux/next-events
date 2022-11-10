@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  margin: 0 0 30px 0;
+  padding: 10px 20px;
+  background-color: #eaeaea;
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.container > * {
+  margin: 0;
+  padding: 0;
+}
+
+.actions {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+}
+
+.actions input {
+  width: 300px;
+}

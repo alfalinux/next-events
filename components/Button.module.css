@@ -1,0 +1,39 @@
+.btn {
+  padding: 5px 10px;
+  font-weight: 700;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.primary {
+  background-color: orangered;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.primary:hover {
+  background-color: crimson;
+  color: #fff;
+}
+
+.icon {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.icon svg {
+  height: 30px;
+}
+
+.txt {
+  padding: 0;
+  margin: 0;
+}

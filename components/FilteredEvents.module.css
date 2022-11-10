@@ -1,0 +1,35 @@
+.container {
+  width: 560px;
+  margin: 10px auto;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  border-radius: 6px;
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+}
+
+.year,
+.month {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.label {
+  flex: 1;
+  margin: 0;
+  color: #fff;
+  font-weight: 800;
+}
+
+.select {
+  flex: 2;
+  padding: 10px 5px;
+  font-size: 1em;
+  border-radius: 6px;
+}
